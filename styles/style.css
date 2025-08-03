@@ -96,6 +96,7 @@ ol {
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  color: #fff;
 }
 
 .visually-hidden {
@@ -110,11 +111,10 @@ ol {
 
 .search-form__textfield {
   width: 225px;
-  height: 27px;
   border-inline: 1px solid transparent;
-  border-block-start: 1px solid #fff;
-  border-block-end: 1px solid #fff;
-  padding: 0;
+  border-block-start: 1px solid currentColor;
+  border-block-end: 1px solid currentColor;
+  padding: 2px 0;
   color: #fff;
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
@@ -173,7 +173,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 700;
@@ -192,6 +192,7 @@ ol {
   width: 99%;
   padding: 6px 0;
 }
+
 .button:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -206,7 +207,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
@@ -275,7 +276,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
 } 
 
 .content__video-card {
